@@ -30,11 +30,27 @@
 
 			<div class="s-sidebar-wrap">
 				<div class="s-sidebar-section">
+					<div class="s-sidebar-label">Selection:</div>
+
+					<div class="s-sidebar-label">Species 1</div>
+					<div class="s-sidebar-data" data-field="species1"></div>
+
+					<div class="s-sidebar-label">Species 2</div>
+					<div class="s-sidebar-data" data-field="species2"></div>
 
 				</div>
 
 				<div class="s-sidebar-section">
+					<div class="s-sidebar-label">Filter (optional):</div>
 
+					<div class="s-sidebar-label-left">Raw Score &gt;</div>
+					<input data-field="raw_score" type="text" /><br>
+
+					<div class="s-sidebar-label-left">eValue &lt;</div>
+					<input data-field="evalue" type="text" /><br>
+
+					<div class="s-sidebar-label-left">Identity &gt;</div>
+					<input data-field="identity" type="text" /><br>
 				</div>
 
 				<button id="submit-button">Submit</button>

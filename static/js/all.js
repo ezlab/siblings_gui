@@ -11,5 +11,6 @@
 	include('render.js');
 	include('pages.js');
 	include('params.js');
+	include('sidebar.js');
 
 })();

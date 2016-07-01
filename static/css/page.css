@@ -48,6 +48,7 @@
 	background: inherit;
 }
 
+.s-sidebar-data,
 .s-sidebar-wrap input,
 .s-sidebar-wrap select {
 	font: inherit;
@@ -59,8 +60,18 @@
 	line-height: 23px;
 }
 
-.s-sidebar-wrap .s-input-small {
-	width: 117px;
+
+.s-sidebar-label-left {
+	display: inline-block;
+	width: 100px;
+	margin-top: 15px;
+	color: #654;
+	line-height: 1.4em;
+	text-align: right;
+}
+
+.s-sidebar-label-left+input {
+	width: 100px;
 }
 
 .s-sidebar-label {
