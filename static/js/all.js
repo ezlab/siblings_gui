@@ -12,5 +12,6 @@
 	include('pages.js');
 	include('params.js');
 	include('sidebar.js');
+	include('tree.js');
 
 })();
