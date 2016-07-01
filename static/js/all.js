@@ -13,5 +13,6 @@
 	include('params.js');
 	include('sidebar.js');
 	include('tree.js');
+	include('results.js');
 
 })();

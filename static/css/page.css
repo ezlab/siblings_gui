@@ -361,7 +361,7 @@ table {
 	border-top:1px solid #ddd
 }
 table tr:nth-child(even){
-      background-color:#eee;
+      background-color:#f8f8f2;
 }
 table tr:nth-child(odd){
 	      background-color:#fff;

@@ -1,0 +1,13 @@
+
+<table>
+	<tr>
+		{{#each colnames}}<th>{{.}}</th>{{/each}}
+	</tr>
+
+	{{#each data}}
+	<tr>
+		{{#each .}}<td>{{.}}</td>{{/each}}
+	</tr>
+	{{/each}}
+
+</table>
