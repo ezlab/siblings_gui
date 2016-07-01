@@ -42,12 +42,42 @@
 	background: #f8f8f2;
 }
 
+.s-sidebar-tabs {
+	background: #ccb;
+    background-image: linear-gradient(#f7f7f1, #ccb);
+	height: 50px;
+	padding: 0 5px;
+	margin-bottom: 10px;
+	white-space: nowrap;
+}
+
+.s-sidebar-tab {
+	display: inline-block;
+	height: 35px;
+	padding: 0 15px;
+	margin: 15px 0px;
+	line-height: 35px;
+	border-radius: 3px 3px 0 0;
+	color: #665;
+	background: #ddc;
+	text-decoration: none;
+}
+
+.s-sidebar-tab-selected {
+	background: #f8f8f2;
+}
+
+.s-hidden {
+	display: none;
+}
+
 .s-sidebar-wrap {
 	width: 380px;
 	padding: 5px 15px 0;
 	background: inherit;
 }
 
+.s-sidebar-data,
 .s-sidebar-wrap input,
 .s-sidebar-wrap select {
 	font: inherit;
@@ -59,8 +89,18 @@
 	line-height: 23px;
 }
 
-.s-sidebar-wrap .s-input-small {
-	width: 117px;
+
+.s-sidebar-label-left {
+	display: inline-block;
+	width: 100px;
+	margin-top: 15px;
+	color: #654;
+	line-height: 1.4em;
+	text-align: right;
+}
+
+.s-sidebar-label-left+input {
+	width: 100px;
 }
 
 .s-sidebar-label {
@@ -89,7 +129,7 @@
 
 .s-sidebar button {
 	padding: 10px 30px;
-	margin: 20px;
+	margin: 20px 20px 10px;
 	border: 1px solid #999;
 	border-radius: 5px;
 	background: #dadace;
@@ -321,7 +361,7 @@ table {
 	border-top:1px solid #ddd
 }
 table tr:nth-child(even){
-      background-color:#eee;
+      background-color:#f8f8f2;
 }
 table tr:nth-child(odd){
 	      background-color:#fff;

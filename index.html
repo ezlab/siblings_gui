@@ -6,10 +6,13 @@
 	<title>Protein Siblings Search | cegg.unige.ch Computational Evolutionary Genomics Group</title>
 
 
+	<link href="static/vendors/fancytree/skin-lion/ui.fancytree.css" rel="stylesheet">
 	<link href="static/css/all.css" rel="stylesheet">
 
 	<script src="static/vendors/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="static/vendors/jquery-ui/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
 	<script src="static/vendors/handlebars/handlebars-v4.0.5.js" type="text/javascript"></script>
+	<script src="static/vendors/fancytree/jquery.fancytree.js" type="text/javascript"></script>
 	<script src="static/js/all.js" type="text/javascript"></script>
 </head>
 <body>
@@ -30,16 +33,44 @@
 
 			<div class="s-sidebar-wrap">
 				<div class="s-sidebar-section">
+					<div class="s-sidebar-label">Selection:</div>
+
+					<div class="s-sidebar-label">Species 1</div>
+					<div class="s-sidebar-data" data-field="species1"></div>
+
+					<div class="s-sidebar-label">Species 2</div>
+					<div class="s-sidebar-data" data-field="species2"></div>
 
 				</div>
 
 				<div class="s-sidebar-section">
+					<div class="s-sidebar-label">Filter (optional):</div>
 
+					<div class="s-sidebar-label-left">Raw Score &gt;</div>
+					<input data-field="raw_score" type="text" /><br>
+
+					<div class="s-sidebar-label-left">eValue &lt;</div>
+					<input data-field="evalue" type="text" /><br>
+
+					<div class="s-sidebar-label-left">Identity &gt;</div>
+					<input data-field="identity" type="text" /><br>
 				</div>
 
 				<button id="submit-button">Submit</button>
 			</div>
 
+			<div class="s-sidebar-tabs">
+				<a id="tab-1" class="s-sidebar-tab s-sidebar-tab-selected" href="javascript:app.selectTab(1)">Species 1</a>
+				<a id="tab-2" class="s-sidebar-tab" href="javascript:app.selectTab(2)">Species 2</a>
+			</div>
+
+			<div id="wrap-1" class="s-sidebar-wrap">
+				<div id="tree-1"></div>
+			</div>
+
+			<div id="wrap-2" class="s-sidebar-wrap s-hidden">
+				<div id="tree-2"></div>
+			</div>
 		</div>
 
 		<div id="topbox" class="s-topbox">
@@ -57,7 +88,7 @@
 					<!-- left -->
 				</div>
 				<div class="s-footer-right">
-					&copy; 2015 EM Zdobnov Group -
+					&copy; 2016 EM Zdobnov Group -
 					<a href="http://gedev.unige.ch/English/Zdobnov/index.php">UniGe</a> /
 					<a href="http://www.isb-sib.ch/groups/geneva/cegg-zdobnov.html">SIB</a> /
 					<a href="http://www3.imperial.ac.uk/people/e.zdobnov">ICL</a>

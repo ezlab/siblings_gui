@@ -1,0 +1,1007 @@
+{
+   "status" : "ok",
+   "data" : [
+      {
+         "alias" : "eubacteria",
+         "count" : 20,
+         "name" : "Bacteria",
+         "key" : "2",
+         "parent" : 1,
+         "children" : [
+            {
+               "key" : "1224",
+               "name" : "Proteobacteria",
+               "alias" : "purple photosynthetic bacteria and relatives",
+               "count" : 4,
+               "children" : [
+                  {
+                     "count" : 1,
+                     "key" : "68525",
+                     "name" : "delta/epsilon subdivisions",
+                     "parent" : 1224,
+                     "children" : [
+                        {
+                           "parent" : 68525,
+                           "children" : [
+                              {
+                                 "name" : "Geobacter sulfurreducens PCA",
+                                 "key" : "243231",
+                                 "mapping_type" : "C",
+                                 "parent" : 28221
+                              }
+                           ],
+                           "count" : 1,
+                           "name" : "Deltaproteobacteria",
+                           "key" : "28221"
+                        }
+                     ]
+                  },
+                  {
+                     "children" : [
+                        {
+                           "count" : 1,
+                           "key" : "41294",
+                           "name" : "Bradyrhizobiaceae",
+                           "parent" : 356,
+                           "children" : [
+                              {
+                                 "name" : "Bradyrhizobium diazoefficiens USDA 110",
+                                 "key" : "224911",
+                                 "mapping_type" : "C",
+                                 "parent" : 41294
+                              }
+                           ]
+                        }
+                     ],
+                     "parent" : 1224,
+                     "name" : "Rhizobiales",
+                     "key" : "356",
+                     "count" : 1,
+                     "alias" : "rhizobacteria"
+                  }
+               ],
+               "parent" : 2
+            },
+            {
+               "count" : 2,
+               "alias" : "high G+C Gram-positive bacteria",
+               "name" : "Actinobacteria",
+               "key" : "1760",
+               "parent" : 2,
+               "children" : [
+                  {
+                     "count" : 1,
+                     "name" : "Streptomycetales",
+                     "key" : "85011",
+                     "parent" : 1760,
+                     "children" : [
+                        {
+                           "name" : "Streptomyces coelicolor A3(2)",
+                           "key" : "100226",
+                           "mapping_type" : "C",
+                           "parent" : 85011
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "key" : "68336",
+               "name" : "Bacteroidetes/Chlorobi group",
+               "count" : 1,
+               "children" : [
+                  {
+                     "parent" : 68336,
+                     "children" : [
+                        {
+                           "count" : 1,
+                           "name" : "Bacteroidales",
+                           "key" : "171549",
+                           "parent" : 976,
+                           "children" : [
+                              {
+                                 "key" : "816",
+                                 "name" : "Bacteroides",
+                                 "count" : 1,
+                                 "children" : [
+                                    {
+                                       "name" : "Bacteroides thetaiotaomicron VPI-5482",
+                                       "key" : "226186",
+                                       "mapping_type" : "C",
+                                       "parent" : 816
+                                    }
+                                 ],
+                                 "parent" : 171549
+                              }
+                           ]
+                        }
+                     ],
+                     "count" : 1,
+                     "name" : "Bacteroidetes",
+                     "key" : "976"
+                  }
+               ],
+               "parent" : 2
+            },
+            {
+               "children" : [
+                  {
+                     "mapping_type" : "C",
+                     "key" : "251221",
+                     "name" : "Gloeobacter violaceus PCC 7421",
+                     "parent" : 1117
+                  }
+               ],
+               "parent" : 2,
+               "name" : "Cyanobacteria",
+               "key" : "1117",
+               "count" : 2,
+               "alias" : "blue-green algae"
+            },
+            {
+               "parent" : 2,
+               "children" : [
+                  {
+                     "parent" : 200795,
+                     "name" : "Chloroflexus aurantiacus J-10-fl",
+                     "key" : "324602",
+                     "mapping_type" : "C"
+                  }
+               ],
+               "count" : 1,
+               "alias" : "green nonsulfur bacteria",
+               "name" : "Chloroflexi",
+               "key" : "200795"
+            },
+            {
+               "children" : [
+                  {
+                     "parent" : 200918,
+                     "mapping_type" : "C",
+                     "name" : "Thermotoga maritima MSB8",
+                     "key" : "243274"
+                  }
+               ],
+               "parent" : 2,
+               "key" : "200918",
+               "name" : "Thermotogae",
+               "count" : 1
+            },
+            {
+               "children" : [
+                  {
+                     "mapping_type" : "C",
+                     "name" : "Rhodopirellula baltica SH 1",
+                     "key" : "243090",
+                     "parent" : 203682
+                  }
+               ],
+               "parent" : 2,
+               "name" : "Planctomycetes",
+               "key" : "203682",
+               "count" : 1
+            },
+            {
+               "name" : "Aquificae",
+               "key" : "187857",
+               "count" : 1,
+               "children" : [
+                  {
+                     "parent" : 187857,
+                     "name" : "Aquifex aeolicus VF5",
+                     "key" : "224324",
+                     "mapping_type" : "C"
+                  }
+               ],
+               "parent" : 2
+            },
+            {
+               "parent" : 2,
+               "mapping_type" : "C",
+               "name" : "Deinococcus radiodurans R1",
+               "key" : "243230"
+            },
+            {
+               "key" : "515635",
+               "name" : "Dictyoglomus turgidum DSM 6724",
+               "mapping_type" : "C",
+               "parent" : 2
+            },
+            {
+               "parent" : 2,
+               "key" : "289376",
+               "name" : "Thermodesulfovibrio yellowstonii DSM 11347",
+               "mapping_type" : "C"
+            }
+         ]
+      },
+      {
+         "alias" : "metazoans",
+         "count" : 21,
+         "key" : "33208",
+         "name" : "Metazoa",
+         "parent" : 1,
+         "children" : [
+            {
+               "parent" : 33208,
+               "examples" : [
+                  "platypus",
+                  "X.tropicalis",
+                  "zebrafish",
+                  "cattle",
+                  "M.musculus",
+                  "P.troglodytes",
+                  "H.sapiens",
+                  "chicken"
+               ],
+               "children" : [
+                  {
+                     "alias" : "tetrapods",
+                     "count" : 11,
+                     "key" : "32523",
+                     "name" : "Tetrapoda",
+                     "parent" : 7742,
+                     "children" : [
+                        {
+                           "count" : 9,
+                           "alias" : "mammals",
+                           "name" : "Mammalia",
+                           "key" : "40674",
+                           "parent" : 32523,
+                           "examples" : [
+                              "platypus",
+                              "cattle",
+                              "M.musculus",
+                              "P.troglodytes",
+                              "H.sapiens"
+                           ],
+                           "children" : [
+                              {
+                                 "children" : [
+                                    {
+                                       "parent" : 9347,
+                                       "examples" : [
+                                          "M.musculus",
+                                          "P.troglodytes",
+                                          "H.sapiens"
+                                       ],
+                                       "children" : [
+                                          {
+                                             "children" : [
+                                                {
+                                                   "count" : 1,
+                                                   "name" : "Cercopithecoidea",
+                                                   "key" : "314294",
+                                                   "parent" : 9443,
+                                                   "children" : [
+                                                      {
+                                                         "mapping_type" : "C",
+                                                         "key" : "9544",
+                                                         "name" : "Macaca mulatta",
+                                                         "alias" : "Rhesus monkey",
+                                                         "parent" : 314294
+                                                      }
+                                                   ]
+                                                },
+                                                {
+                                                   "examples" : [
+                                                      "P.troglodytes",
+                                                      "H.sapiens"
+                                                   ],
+                                                   "children" : [
+                                                      {
+                                                         "examples" : [
+                                                            "Y"
+                                                         ],
+                                                         "parent" : 314295,
+                                                         "mapping_type" : "C",
+                                                         "name" : "Homo sapiens",
+                                                         "key" : "9606",
+                                                         "alias" : "human"
+                                                      },
+                                                      {
+                                                         "parent" : 314295,
+                                                         "examples" : [
+                                                            "Y"
+                                                         ],
+                                                         "alias" : "chimpanzee",
+                                                         "name" : "Pan troglodytes",
+                                                         "key" : "9598",
+                                                         "mapping_type" : "C"
+                                                      }
+                                                   ],
+                                                   "parent" : 9443,
+                                                   "name" : "Hominoidea",
+                                                   "key" : "314295",
+                                                   "count" : 2,
+                                                   "alias" : "apes"
+                                                }
+                                             ],
+                                             "examples" : [
+                                                "P.troglodytes",
+                                                "H.sapiens"
+                                             ],
+                                             "parent" : 314146,
+                                             "key" : "9443",
+                                             "name" : "Primates",
+                                             "count" : 3
+                                          },
+                                          {
+                                             "alias" : "Rodents and rabbits",
+                                             "count" : 2,
+                                             "name" : "Glires",
+                                             "key" : "314147",
+                                             "parent" : 314146,
+                                             "children" : [
+                                                {
+                                                   "alias" : "house mouse",
+                                                   "key" : "10090",
+                                                   "name" : "Mus musculus",
+                                                   "mapping_type" : "C",
+                                                   "parent" : 314147,
+                                                   "examples" : [
+                                                      "Y"
+                                                   ]
+                                                },
+                                                {
+                                                   "parent" : 314147,
+                                                   "alias" : "Norway rat",
+                                                   "key" : "10116",
+                                                   "name" : "Rattus norvegicus",
+                                                   "mapping_type" : "C"
+                                                }
+                                             ],
+                                             "examples" : [
+                                                "M.musculus"
+                                             ]
+                                          }
+                                       ],
+                                       "count" : 5,
+                                       "key" : "314146",
+                                       "name" : "Euarchontoglires"
+                                    },
+                                    {
+                                       "name" : "Laurasiatheria",
+                                       "key" : "314145",
+                                       "count" : 2,
+                                       "examples" : [
+                                          "cattle"
+                                       ],
+                                       "children" : [
+                                          {
+                                             "children" : [
+                                                {
+                                                   "parent" : 91561,
+                                                   "examples" : [
+                                                      "Y"
+                                                   ],
+                                                   "alias" : "cattle",
+                                                   "key" : "9913",
+                                                   "name" : "Bos taurus",
+                                                   "mapping_type" : "C"
+                                                }
+                                             ],
+                                             "parent" : 314145,
+                                             "key" : "91561",
+                                             "name" : "Cetartiodactyla",
+                                             "alias" : "whales, hippos, ruminants, pigs, camels etc.",
+                                             "count" : 1
+                                          },
+                                          {
+                                             "parent" : 314145,
+                                             "children" : [
+                                                {
+                                                   "parent" : 33554,
+                                                   "alias" : "dog",
+                                                   "mapping_type" : "C",
+                                                   "name" : "Canis lupus familiaris",
+                                                   "key" : "9615"
+                                                }
+                                             ],
+                                             "count" : 1,
+                                             "alias" : "carnivores",
+                                             "name" : "Carnivora",
+                                             "key" : "33554"
+                                          }
+                                       ],
+                                       "parent" : 9347
+                                    }
+                                 ],
+                                 "examples" : [
+                                    "cattle",
+                                    "M.musculus",
+                                    "P.troglodytes",
+                                    "H.sapiens"
+                                 ],
+                                 "parent" : 40674,
+                                 "key" : "9347",
+                                 "name" : "Eutheria",
+                                 "alias" : "placentals",
+                                 "count" : 7
+                              },
+                              {
+                                 "name" : "Metatheria",
+                                 "key" : "9263",
+                                 "alias" : "marsupials",
+                                 "count" : 1,
+                                 "children" : [
+                                    {
+                                       "alias" : "gray short-tailed opossum",
+                                       "key" : "13616",
+                                       "name" : "Monodelphis domestica",
+                                       "mapping_type" : "C",
+                                       "parent" : 9263
+                                    }
+                                 ],
+                                 "parent" : 40674
+                              },
+                              {
+                                 "name" : "Ornithorhynchus anatinus",
+                                 "key" : "9258",
+                                 "mapping_type" : "C",
+                                 "alias" : "platypus",
+                                 "examples" : [
+                                    "Y"
+                                 ],
+                                 "parent" : 40674
+                              }
+                           ]
+                        },
+                        {
+                           "children" : [
+                              {
+                                 "key" : "8782",
+                                 "name" : "Aves",
+                                 "alias" : "birds",
+                                 "count" : 1,
+                                 "children" : [
+                                    {
+                                       "alias" : "chicken",
+                                       "key" : "9031",
+                                       "name" : "Gallus gallus",
+                                       "mapping_type" : "C",
+                                       "parent" : 8782,
+                                       "examples" : [
+                                          "Y"
+                                       ]
+                                    }
+                                 ],
+                                 "parent" : 8457
+                              }
+                           ],
+                           "parent" : 32523,
+                           "key" : "8457",
+                           "name" : "Sauropsida",
+                           "alias" : "sauropsids",
+                           "count" : 1
+                        },
+                        {
+                           "alias" : "western clawed frog",
+                           "name" : "Xenopus (Silurana) tropicalis",
+                           "key" : "8364",
+                           "mapping_type" : "C",
+                           "parent" : 32523,
+                           "examples" : [
+                              "Y"
+                           ]
+                        }
+                     ],
+                     "examples" : [
+                        "platypus",
+                        "X.tropicalis",
+                        "cattle",
+                        "M.musculus",
+                        "P.troglodytes",
+                        "H.sapiens",
+                        "chicken"
+                     ]
+                  },
+                  {
+                     "key" : "7898",
+                     "name" : "Actinopterygii",
+                     "count" : 2,
+                     "alias" : "ray-finned fishes",
+                     "examples" : [
+                        "zebrafish"
+                     ],
+                     "children" : [
+                        {
+                           "name" : "Danio rerio",
+                           "key" : "7955",
+                           "mapping_type" : "C",
+                           "alias" : "zebrafish",
+                           "examples" : [
+                              "Y"
+                           ],
+                           "parent" : 7898
+                        },
+                        {
+                           "parent" : 7898,
+                           "alias" : "torafugu",
+                           "mapping_type" : "C",
+                           "name" : "Takifugu rubripes",
+                           "key" : "31033"
+                        }
+                     ],
+                     "parent" : 7742
+                  }
+               ],
+               "count" : 13,
+               "alias" : "vertebrates",
+               "name" : "Vertebrata",
+               "key" : "7742"
+            },
+            {
+               "key" : "6656",
+               "name" : "Arthropoda",
+               "count" : 3,
+               "alias" : "arthropods",
+               "examples" : [
+                  "black-legged tick",
+                  "malaria mosquito",
+                  "D.melanogaster"
+               ],
+               "children" : [
+                  {
+                     "children" : [
+                        {
+                           "children" : [
+                              {
+                                 "children" : [
+                                    {
+                                       "parent" : 7147,
+                                       "children" : [
+                                          {
+                                             "parent" : 7148,
+                                             "children" : [
+                                                {
+                                                   "examples" : [
+                                                      "Y"
+                                                   ],
+                                                   "parent" : 7164,
+                                                   "mapping_type" : "C",
+                                                   "key" : "7165",
+                                                   "name" : "Anopheles gambiae",
+                                                   "alias" : "African malaria mosquito"
+                                                }
+                                             ],
+                                             "count" : 1,
+                                             "name" : "Anopheles",
+                                             "key" : "7164"
+                                          }
+                                       ],
+                                       "count" : 1,
+                                       "key" : "7148",
+                                       "name" : "Nematocera"
+                                    },
+                                    {
+                                       "count" : 1,
+                                       "key" : "7203",
+                                       "name" : "Brachycera",
+                                       "parent" : 7147,
+                                       "children" : [
+                                          {
+                                             "children" : [
+                                                {
+                                                   "parent" : 7215,
+                                                   "examples" : [
+                                                      "Y"
+                                                   ],
+                                                   "alias" : "fruit fly",
+                                                   "mapping_type" : "C",
+                                                   "name" : "Drosophila melanogaster",
+                                                   "key" : "7227"
+                                                }
+                                             ],
+                                             "parent" : 7203,
+                                             "name" : "Drosophila",
+                                             "key" : "7215",
+                                             "count" : 1,
+                                             "alias" : "fruit flies"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "examples" : [
+                                    "malaria mosquito",
+                                    "D.melanogaster"
+                                 ],
+                                 "parent" : 33392,
+                                 "name" : "Diptera",
+                                 "key" : "7147",
+                                 "alias" : "flies",
+                                 "count" : 2
+                              }
+                           ],
+                           "examples" : [
+                              "malaria mosquito",
+                              "D.melanogaster"
+                           ],
+                           "parent" : 50557,
+                           "key" : "33392",
+                           "name" : "Endopterygota",
+                           "count" : 2
+                        }
+                     ],
+                     "examples" : [
+                        "malaria mosquito",
+                        "D.melanogaster"
+                     ],
+                     "parent" : 6656,
+                     "key" : "50557",
+                     "name" : "Insecta",
+                     "alias" : "true insects",
+                     "count" : 2
+                  },
+                  {
+                     "parent" : 6656,
+                     "children" : [
+                        {
+                           "key" : "6933",
+                           "name" : "Acari",
+                           "alias" : "mites and ticks",
+                           "count" : 1,
+                           "children" : [
+                              {
+                                 "parent" : 6933,
+                                 "examples" : [
+                                    "Y"
+                                 ],
+                                 "alias" : "black-legged tick",
+                                 "name" : "Ixodes scapularis",
+                                 "key" : "6945",
+                                 "mapping_type" : "C"
+                              }
+                           ],
+                           "parent" : 6854
+                        }
+                     ],
+                     "count" : 1,
+                     "alias" : "arachnids",
+                     "name" : "Arachnida",
+                     "key" : "6854"
+                  }
+               ],
+               "parent" : 33208
+            },
+            {
+               "parent" : 33208,
+               "children" : [
+                  {
+                     "parent" : 6231,
+                     "examples" : [
+                        "Y"
+                     ],
+                     "alias" : "roundworm",
+                     "name" : "Caenorhabditis elegans",
+                     "key" : "6239",
+                     "mapping_type" : "C"
+                  }
+               ],
+               "count" : 1,
+               "alias" : "roundworms",
+               "name" : "Nematoda",
+               "key" : "6231"
+            },
+            {
+               "mapping_type" : "C",
+               "name" : "Branchiostoma floridae",
+               "key" : "7739",
+               "alias" : "Florida lancelet",
+               "parent" : 33208
+            },
+            {
+               "mapping_type" : "C",
+               "key" : "7719",
+               "name" : "Ciona intestinalis",
+               "alias" : "vase tunicate",
+               "parent" : 33208
+            },
+            {
+               "alias" : "starlet sea anemone",
+               "mapping_type" : "C",
+               "name" : "Nematostella vectensis",
+               "key" : "45351",
+               "parent" : 33208
+            },
+            {
+               "mapping_type" : "M",
+               "name" : "Schistosoma mansoni",
+               "key" : "6183",
+               "parent" : 33208
+            }
+         ],
+         "examples" : [
+            "C.elegans",
+            "black-legged tick",
+            "platypus",
+            "X.tropicalis",
+            "zebrafish",
+            "malaria mosquito",
+            "cattle",
+            "M.musculus",
+            "P.troglodytes",
+            "H.sapiens",
+            "chicken",
+            "D.melanogaster"
+         ]
+      },
+      {
+         "children" : [
+            {
+               "parent" : 4751,
+               "children" : [
+                  {
+                     "count" : 8,
+                     "alias" : "ascomycetes",
+                     "name" : "Ascomycota",
+                     "key" : "4890",
+                     "parent" : 451864,
+                     "children" : [
+                        {
+                           "children" : [
+                              {
+                                 "parent" : 716545,
+                                 "children" : [
+                                    {
+                                       "count" : 2,
+                                       "name" : "sordariomyceta",
+                                       "key" : "715989",
+                                       "parent" : 147538,
+                                       "children" : [
+                                          {
+                                             "parent" : 715989,
+                                             "children" : [
+                                                {
+                                                   "mapping_type" : "C",
+                                                   "name" : "Sclerotinia sclerotiorum 1980 UF-70",
+                                                   "key" : "665079",
+                                                   "parent" : 147548
+                                                }
+                                             ],
+                                             "count" : 1,
+                                             "key" : "147548",
+                                             "name" : "Leotiomycetes"
+                                          },
+                                          {
+                                             "name" : "Neurospora",
+                                             "key" : "5140",
+                                             "count" : 1,
+                                             "children" : [
+                                                {
+                                                   "parent" : 5140,
+                                                   "mapping_type" : "C",
+                                                   "name" : "Neurospora crassa OR74A",
+                                                   "key" : "367110"
+                                                }
+                                             ],
+                                             "parent" : 715989
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "children" : [
+                                          {
+                                             "count" : 1,
+                                             "name" : "Aspergillaceae",
+                                             "key" : "1131492",
+                                             "parent" : 147545,
+                                             "children" : [
+                                                {
+                                                   "name" : "Aspergillus",
+                                                   "key" : "5052",
+                                                   "count" : 1,
+                                                   "children" : [
+                                                      {
+                                                         "key" : "746128",
+                                                         "name" : "Aspergillus fumigatus",
+                                                         "count" : 1,
+                                                         "children" : [
+                                                            {
+                                                               "parent" : 746128,
+                                                               "mapping_type" : "C",
+                                                               "key" : "330879",
+                                                               "name" : "Aspergillus fumigatus Af293"
+                                                            }
+                                                         ],
+                                                         "parent" : 5052
+                                                      }
+                                                   ],
+                                                   "parent" : 1131492
+                                                }
+                                             ]
+                                          }
+                                       ],
+                                       "parent" : 147538,
+                                       "name" : "Eurotiomycetes",
+                                       "key" : "147545",
+                                       "count" : 1
+                                    },
+                                    {
+                                       "parent" : 147538,
+                                       "children" : [
+                                          {
+                                             "parent" : 147541,
+                                             "name" : "Parastagonospora nodorum SN15",
+                                             "key" : "321614",
+                                             "mapping_type" : "C"
+                                          }
+                                       ],
+                                       "count" : 1,
+                                       "key" : "147541",
+                                       "name" : "Dothideomycetes"
+                                    }
+                                 ],
+                                 "count" : 4,
+                                 "name" : "Pezizomycotina",
+                                 "key" : "147538"
+                              },
+                              {
+                                 "children" : [
+                                    {
+                                       "parent" : 4892,
+                                       "children" : [
+                                          {
+                                             "alias" : "bakers yeast",
+                                             "count" : 1,
+                                             "key" : "4932",
+                                             "name" : "Saccharomyces cerevisiae",
+                                             "parent" : 4893,
+                                             "children" : [
+                                                {
+                                                   "mapping_type" : "C",
+                                                   "key" : "559292",
+                                                   "name" : "Saccharomyces cerevisiae S288c",
+                                                   "parent" : 4932
+                                                }
+                                             ]
+                                          }
+                                       ],
+                                       "count" : 1,
+                                       "name" : "Saccharomycetaceae",
+                                       "key" : "4893"
+                                    },
+                                    {
+                                       "key" : "1535326",
+                                       "name" : "Candida",
+                                       "count" : 1,
+                                       "children" : [
+                                          {
+                                             "count" : 1,
+                                             "name" : "Candida albicans",
+                                             "key" : "5476",
+                                             "parent" : 1535326,
+                                             "children" : [
+                                                {
+                                                   "key" : "237561",
+                                                   "name" : "Candida albicans SC5314",
+                                                   "mapping_type" : "C",
+                                                   "parent" : 5476
+                                                }
+                                             ]
+                                          }
+                                       ],
+                                       "parent" : 4892
+                                    },
+                                    {
+                                       "name" : "Yarrowia lipolytica CLIB122",
+                                       "key" : "284591",
+                                       "mapping_type" : "C",
+                                       "parent" : 4892
+                                    }
+                                 ],
+                                 "parent" : 716545,
+                                 "key" : "4892",
+                                 "name" : "Saccharomycetales",
+                                 "alias" : "budding yeasts",
+                                 "count" : 3
+                              }
+                           ],
+                           "parent" : 4890,
+                           "key" : "716545",
+                           "name" : "saccharomyceta",
+                           "count" : 7
+                        },
+                        {
+                           "children" : [
+                              {
+                                 "mapping_type" : "C",
+                                 "name" : "Schizosaccharomyces pombe 972h-",
+                                 "key" : "284812",
+                                 "parent" : 451866
+                              }
+                           ],
+                           "parent" : 4890,
+                           "name" : "Taphrinomycotina",
+                           "key" : "451866",
+                           "count" : 1
+                        }
+                     ]
+                  },
+                  {
+                     "alias" : "basidiomycetes",
+                     "count" : 2,
+                     "name" : "Basidiomycota",
+                     "key" : "5204",
+                     "parent" : 451864,
+                     "children" : [
+                        {
+                           "key" : "5302",
+                           "name" : "Agaricomycotina",
+                           "count" : 1,
+                           "children" : [
+                              {
+                                 "count" : 1,
+                                 "alias" : "jelly fungi",
+                                 "key" : "5234",
+                                 "name" : "Tremellales",
+                                 "parent" : 5302,
+                                 "children" : [
+                                    {
+                                       "count" : 1,
+                                       "name" : "Cryptococcus neoformans var. neoformans",
+                                       "key" : "40410",
+                                       "parent" : 5234,
+                                       "children" : [
+                                          {
+                                             "mapping_type" : "C",
+                                             "key" : "214684",
+                                             "name" : "Cryptococcus neoformans var. neoformans JEC21",
+                                             "parent" : 40410
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ],
+                           "parent" : 5204
+                        },
+                        {
+                           "parent" : 5204,
+                           "children" : [
+                              {
+                                 "parent" : 452284,
+                                 "name" : "Ustilago maydis 521",
+                                 "key" : "237631",
+                                 "mapping_type" : "C"
+                              }
+                           ],
+                           "count" : 1,
+                           "key" : "452284",
+                           "name" : "Ustilaginomycotina"
+                        }
+                     ]
+                  }
+               ],
+               "count" : 10,
+               "name" : "Dikarya",
+               "key" : "451864"
+            }
+         ],
+         "parent" : 1,
+         "key" : "4751",
+         "name" : "Fungi",
+         "count" : 10,
+         "alias" : "fungi"
+      },
+      {
+         "parent" : 1,
+         "children" : [
+            {
+               "examples" : [
+                  "Y"
+               ],
+               "parent" : 3193,
+               "name" : "Arabidopsis thaliana",
+               "key" : "3702",
+               "mapping_type" : "C",
+               "alias" : "thale cress"
+            }
+         ],
+         "alias" : "plants",
+         "count" : 1,
+         "name" : "Embryophyta",
+         "key" : "3193"
+      }
+   ]
+}
