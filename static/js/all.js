@@ -8,5 +8,7 @@
 	include('application.js');
 	include('errors.js');
 	include('navigation.js');
+	include('render.js');
+	include('pages.js');
 
 })();
