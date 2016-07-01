@@ -10,5 +10,6 @@
 	include('navigation.js');
 	include('render.js');
 	include('pages.js');
+	include('params.js');
 
 })();
