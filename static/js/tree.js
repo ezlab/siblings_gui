@@ -18,7 +18,7 @@
 
 		var node = tree.getNodeByKey(String(value));
 
-		if (!node.selected){
+		if (node && !node.selected){
 			node.setSelected();
 			node.setActive();
 		}
@@ -42,8 +42,22 @@
 			source: source,
 			icons: false,
 			checkbox: true,
-			selectMode: 3
+			clickFolderMode: 2,
+			selectMode: 1
 		};
+
+
+		options.createNode = function(event, data){
+
+			var node = data.node;
+
+			if (node.children){
+				node.folder = true;
+				node.unselectable = true;
+				node.hideCheckbox = true;
+			}
+		};
+
 
 		options.renderTitle = function(event, data) {
 			if (!data.node.statusNodeType){
@@ -51,11 +65,22 @@
 			}
 		};
 
+
+		options.click = function(event, data){
+
+			var node = data.node;
+
+			if (node && !node.children){
+				node.setSelected(true);
+			}
+		};
+
+
 		options.select = function(event, data){
 
 			var sel = data.tree.getSelectedNodes(true);
 
-			app.set(param, sel[0].key);
+			app.set(param, sel.length ? sel[0].key : '');
 
 		};
 
