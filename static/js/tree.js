@@ -101,6 +101,11 @@
 	}
 
 
+	app.getNode = function(key){
+		return tree1.getNodeByKey(String(key));
+	};
+
+
 	app.selectTab = function(i){
 
 		var selected = 's-sidebar-tab-selected',

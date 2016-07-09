@@ -76,7 +76,6 @@
 	background: inherit;
 }
 
-.s-sidebar-data,
 .s-sidebar-wrap input,
 .s-sidebar-wrap select {
 	font: inherit;
@@ -86,6 +85,15 @@
 	border: 1px solid #999;
 	border-radius: 2px;
 	line-height: 23px;
+}
+
+
+.s-sidebar-data {
+	text-align: center;
+}
+
+.s-sidebar-data-text {
+	text-align: center;
 }
 
 
