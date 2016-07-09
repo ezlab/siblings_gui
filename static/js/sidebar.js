@@ -45,12 +45,31 @@
 	}
 
 
+	function bindSelected(){
+
+		var field = $(this),
+			name = field.attr('data-field');
+
+		function getState(){
+
+			var key = app.get(name),
+				node = app.getNode(key),
+				title = node ? node.data.name : '[Select species from ' + name + ' tree]';;
+
+			field.html(title);
+		}
+
+		app.on('ready', getState);
+		app.on(name, getState);
+
+	}
+
 
 	app.on('init', function(){
 
 		$('input[data-field]').each(bind);
 		$('select[data-field]').each(bind);
-		$('.s-sidebar-data').each(bind);
+		$('.s-sidebar-data').each(bindSelected);
 
 	});
 

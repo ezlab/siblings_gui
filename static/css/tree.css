@@ -150,6 +150,11 @@ span.fancytree-title {
     color: #a36;
 }
 
+
+.fancytree-has-children>.fancytree-checkbox{
+	display: none;
+}
+
 /* autocomplete */
 
 .ui-autocomplete {

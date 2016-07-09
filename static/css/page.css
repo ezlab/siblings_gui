@@ -8,10 +8,9 @@
 	position: absolute;
 	overflow: hidden;
 	left: 0;
-	top: 80px;
-	height: 80px;
+	top: 170px;
+	height: 20px;
 	width: 65%;
-	border-bottom: 1px solid #ddc;
 }
 
 .s-topbox img {
@@ -24,8 +23,8 @@
 	overflow: auto;
 	left: 0;
 	width: 65%;
-	top: 160px;
-	bottom: 25px;
+	top: 220px;
+	bottom: 0px;
 	padding: 0 15px;
 }
 
@@ -37,8 +36,8 @@
 	left: 65%;
 	right: 0!important;
 	width: auto!important;
-	top: 80px;
-	bottom: 25px;
+	top: 170px;
+	bottom: 0px;
 	background: #f8f8f2;
 }
 
@@ -77,11 +76,10 @@
 	background: inherit;
 }
 
-.s-sidebar-data,
 .s-sidebar-wrap input,
 .s-sidebar-wrap select {
 	font: inherit;
-	width: 250px;
+	width: 300px;
 	height: 25px;
 	padding: 0 0 0 5px;
 	border: 1px solid #999;
@@ -90,18 +88,16 @@
 }
 
 
-.s-sidebar-label-left {
-	display: inline-block;
-	width: 100px;
-	margin-top: 15px;
-	color: #654;
-	line-height: 1.4em;
-	text-align: right;
+.s-sidebar-data {
+	text-align: center;
 }
 
-.s-sidebar-label-left+input {
-	width: 100px;
+.s-sidebar-data-text {
+	text-align: center;
+	color: #777;
+	padding: 2px 0;
 }
+
 
 .s-sidebar-label {
 	margin-top: 15px;
@@ -120,7 +116,7 @@
 
 .s-sidebar-section {
 	position: relative;
-	padding: 12px 15px 25px;
+	padding: 20px 15px 25px;
 	margin-top: 25px;
 	border: 1px solid #ccb;
 	border-radius: 4px;
@@ -142,50 +138,10 @@
 /*  header  --------------- */
 
 .s-header {
-	height: 69px;
-	background: #9C0063;
+	height: 120px;
+	background: #fff;
 }
 
-.s-header-right-fill {
-	position: absolute;
-	top: 0;
-	height: 80px;
-	left: 300px;
-	right: 0;
-	background: url(../images/header-right-fill.gif) repeat-x;
-}
-
-.s-header-wrap {
-	position: relative;
-	height: 80px;
-	background: url(../images/cegg-logo.jpg) 15px 0 no-repeat;
-}
-
-.s-header-logo-2 {
-	position: absolute;
-	top: 1px;
-	height: 65px;
-	left: 798px;
-	width: 86px;
-	margin: 0!important;
-	background: url(../images/sib-logo.png) no-repeat;
-}
-
-.s-header-menu-1 {
-	position: absolute;
-	left: 350px;
-	bottom: 0px;
-	line-height: 25px;
-	font-size: 11px;
-}
-
-.s-header-menu-2 {
-	position: absolute;
-	right: 20px;
-	bottom: 0px;
-	line-height: 25px;
-	font-size: 11px;
-}
 
 .s-header a {
 	margin: 0 7px;
@@ -368,3 +324,7 @@ table tr:nth-child(odd){
       }
 
 
+.home-page {
+	padding: 20px 60px;
+	max-width: 890px;
+}
