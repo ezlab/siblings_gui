@@ -79,7 +79,7 @@
 .s-sidebar-wrap input,
 .s-sidebar-wrap select {
 	font: inherit;
-	width: 250px;
+	width: 300px;
 	height: 25px;
 	padding: 0 0 0 5px;
 	border: 1px solid #999;
@@ -94,21 +94,10 @@
 
 .s-sidebar-data-text {
 	text-align: center;
+	color: #777;
+	padding: 2px 0;
 }
 
-
-.s-sidebar-label-left {
-	display: inline-block;
-	width: 100px;
-	margin-top: 15px;
-	color: #654;
-	line-height: 1.4em;
-	text-align: right;
-}
-
-.s-sidebar-label-left+input {
-	width: 100px;
-}
 
 .s-sidebar-label {
 	margin-top: 15px;
@@ -127,7 +116,7 @@
 
 .s-sidebar-section {
 	position: relative;
-	padding: 12px 15px 25px;
+	padding: 20px 15px 25px;
 	margin-top: 25px;
 	border: 1px solid #ccb;
 	border-radius: 4px;
