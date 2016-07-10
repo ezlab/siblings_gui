@@ -20,12 +20,22 @@
 	function requestMatches(){
 
 		var state = app.state(),
-			url = 'http://siblings.ch/api/matches'
+			url = 'http://siblings.ch/api/matches';
 
 		url += '/' + state.species1;
 		url += '/' + state.species2;
+		url += '/?limit=20&idtype=Source';
 
-		app.load(url).then(renderMatches);
+		var cfg = {
+			url: url,
+			method: 'POST',
+			data: JSON.stringify({'filter': state.filter || ''}),
+			processData: false,
+			contentType: 'application/json',
+			dataType: 'json'
+		};
+
+		app.request(cfg).then(renderMatches);
 	}
 
 	app.on('navigate', function(params){
