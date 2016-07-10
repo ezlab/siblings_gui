@@ -1,7 +1,7 @@
 
 (function(){
 
-	var names = ['species1', 'species2'];
+	var names = ['species1', 'species2', 'filter'];
 
 
 	function updateState(params, state){
@@ -31,10 +31,6 @@
 
 
 	function init(){
-
-		//app.set('species1', '83332');
-		//app.set('species2', '83332');
-
 		$('#submit-button').click(sendRequest);
 	}
 

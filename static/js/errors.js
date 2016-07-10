@@ -79,5 +79,10 @@
 		return $.getJSON(url, params).then(verifyResponse);
 	};
 
+
+	app.request = function(){
+		return $.ajax.apply($, arguments).then(verifyResponse);
+	};
+
 })();
 
