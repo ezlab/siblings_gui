@@ -1,4 +1,18 @@
 
+<div>
+	<a href="http://siblings.ch/api/matches/{{state.species1}}/{{state.species2}}" target="_blank">Download full dataset</a>
+</div>
+
+<div style="margin: 10px 0">
+	Species1: {{species1}} </br>
+	Species2: {{species2}} </br>
+	{{#if filter}} Filter: {{filter}}{{/if}}
+</div>
+
+<div>
+	Top 100 rows sample:
+</div>
+
 <table>
 	<tr>
 		{{#each colnames}}<th>{{.}}</th>{{/each}}
