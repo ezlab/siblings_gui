@@ -36,12 +36,20 @@
 
 		url += '/' + state.species1;
 		url += '/' + state.species2;
-		url += '/?limit=100&idtype=Source';
+
+		var params = {
+			limit: 100,
+			idtype: 'Source'
+		};
+
+		if (state.filter){
+			params.filter = state.filter;
+		}
 
 		var cfg = {
 			url: url,
 			method: 'POST',
-			data: JSON.stringify({'filter': state.filter || ''}),
+			data: JSON.stringify(params),
 			processData: false,
 			contentType: 'application/json',
 			dataType: 'json'
