@@ -6,9 +6,21 @@
 	}
 
 
+	function speciesName(key){
+		var node = app.getNode(key);
+		return node ? node.data.name : '';
+	}
+
+
 	function renderMatches(response){
 
-		var matches = {
+		var state = app.state();
+
+		var	matches = {
+			state: state,
+			species1: speciesName(state.species1),
+			species2: speciesName(state.species2),
+			filter: state.filter,
 			colnames: response.colnames,
 			data: response.data.slice(0, 100)
 		};
@@ -24,7 +36,7 @@
 
 		url += '/' + state.species1;
 		url += '/' + state.species2;
-		url += '/?limit=20&idtype=Source';
+		url += '/?limit=100&idtype=Source';
 
 		var cfg = {
 			url: url,
