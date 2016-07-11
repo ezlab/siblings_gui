@@ -70,7 +70,7 @@
 
 			var node = data.node;
 
-			if (node && !node.children){
+			if (node && !node.children && data.targetType == 'title'){
 				node.setSelected(true);
 			}
 		};
